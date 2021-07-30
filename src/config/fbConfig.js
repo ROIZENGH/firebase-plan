@@ -3,7 +3,7 @@ import "firebase/firestore"
 import "firebase/auth"
 
 // Your web app's Firebase configuration
-var firebaseConfig = {
+var config = {
 apiKey: "AIzaSyAJN-kfYaCSz1EQTwR6L_wKC8qUsXH1_t0",
 authDomain: "fir-plan-a1c37.firebaseapp.com",
 projectId: "fir-plan-a1c37",
@@ -13,7 +13,7 @@ appId: "1:199972034093:web:4ebffaa124eb1e765a0aa4"
 };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-firebase.firestore().settings({timestampsInSnapshots: true}); 
+firebase.initializeApp(config);
+firebase.firestore().settings({ timestampsInSnapshots: true }); 
 
 export default firebase;
