@@ -6,7 +6,7 @@ import SignIn from "./components/auth/SignIn";
 import SignUp from "./components/auth/SingUp";
 import CreateProject from "./components/projects/CreateProject";
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <div className="App">
